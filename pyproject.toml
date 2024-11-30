@@ -1,0 +1,10 @@
+[project]
+name = "daily-draw"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "py5[extras,jupyter]>=0.10.3a1",
+    "ruff>=0.8.1",
+]
