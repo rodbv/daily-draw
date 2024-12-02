@@ -15,7 +15,6 @@ def draw():
             py5.circle(col * diameter, row * diameter, diameter)
 
     if py5.is_key_pressed and py5.key == "s":
-        # save on current dir of script
         py5.save_frame("2024-12-02.png")
 
 
