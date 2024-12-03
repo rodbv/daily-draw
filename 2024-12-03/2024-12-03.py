@@ -9,10 +9,6 @@ def setup():
 
 
 def draw():
-    # draw a senoid
-
-    py5.fill(255, 0, 0)
-
     for i in range(-20, 20):
         py5.stroke(0, py5.random(255), 0)
         for x in range(0, 500, 10):
