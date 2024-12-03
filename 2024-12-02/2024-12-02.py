@@ -1,5 +1,4 @@
 import py5
-import py5_tools
 
 
 def setup():
