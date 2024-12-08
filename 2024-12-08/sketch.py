@@ -20,6 +20,11 @@ def setup():
         draw_tape(row)
 
 
+def draw():
+    if py5.is_key_pressed and py5.key == "s":
+        py5.save_frame("2024-12-08.png")
+
+
 def draw_tape(row):
     a = 0
     for i in range(100):
