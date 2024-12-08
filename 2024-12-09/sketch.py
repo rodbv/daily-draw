@@ -1,5 +1,5 @@
 import py5
-
+import py5_tools
 
 rainbow = [
     "#70369d",
@@ -40,4 +40,5 @@ def draw_line(y):
         up = not up
 
 
+py5_tools.animated_gif("2024-12-09.gif", count=100, period=0.1, duration=0.1)
 py5.run_sketch()
