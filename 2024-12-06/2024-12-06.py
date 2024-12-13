@@ -13,7 +13,7 @@ def draw_maze(x, y, width, height):
     if width > 10 and height > 10:
         py5.fill(
             py5.color(
-                random.choice(  # wow so Mondrian-esque
+                random.choice(
                     [
                         "red",
                         "blue",
