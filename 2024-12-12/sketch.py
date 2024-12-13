@@ -49,5 +49,5 @@ def draw_triangle(x, y):
     py5.triangle(x, y, x - 10, y + 20, x + 10, y + 20)
 
 
-py5_tools.animated_gif("2024-12-09.gif", count=20, period=0.1, duration=0.1)
+py5_tools.animated_gif("2024-12-12.gif", count=20, period=0.1, duration=0.1)
 py5.run_sketch()
